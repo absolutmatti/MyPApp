@@ -16,11 +16,18 @@ class MyPGalleryViewModel : ViewModel() {
 
   private val _sites = MutableStateFlow(
     listOf(
-      SitePlugin("1", "AdultStream HD", "Videos", 14500, true, "🔥"),
-      SitePlugin("2", "CamLive Show", "Livestreams", 820, true, "🎥"),
-      SitePlugin("3", "PhotoSets Vault", "Galleries", 32000, true, "📸"),
-      SitePlugin("4", "HentaiNet & Comics", "Manga", 9400, true, "🎌"),
-      SitePlugin("5", "ForumPlaza Creators", "Community", 18500, true, "💬")
+      SitePlugin("1", "Pornhub HD", "Videos", 45000, true, "🔥"),
+      SitePlugin("2", "XVideos Network", "Videos", 62000, true, "🎬"),
+      SitePlugin("3", "XHamster Vault", "Videos", 38000, true, "🐹"),
+      SitePlugin("4", "XNXX Stream", "Videos", 54000, true, "⚡"),
+      SitePlugin("5", "SpankBang Pro", "Videos", 29000, true, "💥"),
+      SitePlugin("6", "RedTube Elite", "Videos", 18000, true, "🔴"),
+      SitePlugin("7", "YouPorn Gold", "Videos", 21000, true, "💛"),
+      SitePlugin("8", "Chaturbate Live", "Livestreams", 1250, true, "🎥"),
+      SitePlugin("9", "Stripchat Cams", "Livestreams", 980, true, "💫"),
+      SitePlugin("10", "PhotoSets Vault", "Galleries", 85000, true, "📸"),
+      SitePlugin("11", "E-Hentai & Manga", "Comics", 41000, true, "🎌"),
+      SitePlugin("12", "Reddit Creators", "Community", 33000, true, "💬")
     )
   )
   val sites: StateFlow<List<SitePlugin>> = _sites.asStateFlow()
@@ -30,7 +37,7 @@ class MyPGalleryViewModel : ViewModel() {
       MediaItem(
         id = "m1",
         title = "Cinematic Sunset Session & Exclusive Photoshoot",
-        siteName = "AdultStream HD",
+        siteName = "Pornhub HD",
         category = "Cinematic",
         performer = "Elena Vance",
         tags = listOf("hd", "exclusive", "sunset", "outdoors"),
@@ -58,7 +65,7 @@ class MyPGalleryViewModel : ViewModel() {
       MediaItem(
         id = "m3",
         title = "Misty Mountain Escape Livestream Recording",
-        siteName = "CamLive Show",
+        siteName = "Chaturbate Live",
         category = "Nature",
         performer = "Sophie Laurent",
         tags = listOf("cam", "live", "nature"),
@@ -73,7 +80,7 @@ class MyPGalleryViewModel : ViewModel() {
       MediaItem(
         id = "m4",
         title = "Modern Architecture & Interior Showcase",
-        siteName = "ForumPlaza Creators",
+        siteName = "Reddit Creators",
         category = "Architecture",
         performer = "Studio Alpha",
         tags = listOf("architecture", "interior", "luxury"),
@@ -88,7 +95,7 @@ class MyPGalleryViewModel : ViewModel() {
       MediaItem(
         id = "m5",
         title = "Short Clip: Neon Lights Bounce",
-        siteName = "AdultStream HD",
+        siteName = "XVideos Network",
         category = "Shorts",
         performer = "Kira Neko",
         tags = listOf("short", "vertical", "neon"),
