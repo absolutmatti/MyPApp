@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "MyPGallery",
+  "description": "Media gallery, photo/video streaming, and secure local downloader app",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
